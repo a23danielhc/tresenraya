@@ -24,8 +24,18 @@ Observa que si la clase TresEnRaya está bien escrita podrás reutilizarla para 
 
 Se entrega un proyecto en gitlab  con tu solución del proyecto un .jar y una carpeta con el javadoc como indica la imagen
 ![ALT](estructura.jpg)
+
+
+
+
+
+
+
+
+
+
 Puedes utilizar el propio IDE para generar el .jar
-Para generar el java quizá mejor la consola como ilustra la siguiente imagen
+Para generar el javadoc quizá mejor la consola como ilustra la siguiente imagen
 ![ALT](crearjavadocwindows.jpg)
 
 El javadoc debe describir la parte pública de la clase TresEnRaya. Piensa que si un programador tiene sólo TresEnRaya.class (no el .java) y el javadoc debe poder saber utilizarla.
