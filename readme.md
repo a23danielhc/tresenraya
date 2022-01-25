@@ -22,10 +22,11 @@ Observa que si la clase TresEnRaya está bien escrita podrás reutilizarla para 
 * ¡no puede haber ni un println() en la clase TresEnRaya! Tampoco puede usar System.in
 * La clase interface no puede modificar directamente el tablero de juego, se limita a mandar los datos a TresEnRaya para que lo modifique oportunamente TresEnRaya. Todo lo que puede hacer la clase interfaceConsola es leer los datos del tablero para imprimirlos por pantalla
 
-Se entrega un merge request con tu solución del proyecto que debe incluir como mínimo:
-1.  Los .java
-2.  Un .jar ejecutable Mi3Raya.jar. Puedes utilizar el propio IDE para generar el .jar
-4.  javadoc. Puedes utilizar el propio IDE para generar los html javadoc o el comando javadoc con -d para indicar el directorio  destino que contiene los ficheros generados por javadoc
+Se entrega un proyecto en gitlab  con tu solución del proyecto un .jar y una carpeta con el javadoc como indica la imagen
+![ALT](estructura.jpg)
+Puedes utilizar el propio IDE para generar el .jar
+Para generar el java quizá mejor la consola como ilustra la siguiente imagen
+![ALT](crearjavadocwindows.jpg)
 
 El javadoc debe describir la parte pública de la clase TresEnRaya. Piensa que si un programador tiene sólo TresEnRaya.class (no el .java) y el javadoc debe poder saber utilizarla.
 
