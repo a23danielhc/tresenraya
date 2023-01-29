@@ -22,7 +22,7 @@ Con la opción “simple” es más que suficiente, luego si te gusta la prácti
 
 Observa que si la clase TresEnRaya está bien escrita podrás reutilizarla para hacer una versión gráfica del Tres en raya. Donde reutilizar significa no tener que modificarla en absoluto y  directamente poder usarla desde  una  clase  que se ocupara del diálogo con el usuario pero de forma gráfica. POR LO TANTO:
 * ¡no puede haber ni un println() en la clase TresEnRaya! Tampoco puede usar System.in ni "usar" de ningún modo a la clase InterfaceConsola. TresEnraya en su código desconoce por completo la existencia de InterfaceConsola.
-* La clase interface no puede modificar directamente el tablero de juego, se limita a mandar los datos a TresEnRaya para que lo modifique oportunamente TresEnRaya. Todo lo que puede hacer la clase interfaceConsola es leer los datos del tablero para imprimirlos por pantalla
+* La clase interface no puede modificar directamente el tablero de juego, se limita a mandar los datos a TresEnRaya para que lo modifique oportunamente TresEnRaya. Todo lo que puede hacer la clase interfaceConsola es "solicitar"  los datos del tablero a TresEnRaya para imprimirlos por pantalla con su propio estilo.
 
 4. Los atributos de las clases deben ser privados y  la clase TresEnRaya debe cumplir el principio de ocultación. Puedes pensar que nadie va a usar tu clase y que no es importante el principio de ocultación, pero se trata de practicar, por otro lado dentro de unos meses si vuelves a usar la clase para hacer un interface gráfico y te da pereza revisar el código el principio de ocultación también protege a tu clase ¡de ti mismo!. 
 
