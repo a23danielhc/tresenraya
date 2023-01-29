@@ -5,7 +5,7 @@ No es importante que tenga mil opciones y que el diálogo con el usuario sea reb
 - utilizar el principio de ocultación
 - generar javadoc para la clase de la lógica del juego 
 
-Descripción de cosas que debe  cumplirse el proyecto:
+Descripción de cosas que debe  cumplir el proyecto:
 1. Nos limitamos a Jugador humano vs máquina. Para no liar el código con muchas opciones descartamos la opción humano vs humano. El juego de la máquina es el más interesante para nosotros ya que es el programador el que juega y decide en nombre de la máquina. La máquina puede jugar a muchos niveles de elaboración de jugadas, por ejemplo:
     * a. simple: hace sus movimientos a una de las casillas libre al azar o a la primera que ve libre por orden de recorrido matriz
     * b. intermedio: mira antes de mover donde  puede hacer raya 
