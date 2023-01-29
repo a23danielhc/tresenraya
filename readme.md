@@ -27,6 +27,7 @@ Observa que si la clase TresEnRaya está bien escrita podrás reutilizarla para 
 4. Los atributos de las clases deben ser privados y  la clase TresEnRaya debe cumplir el principio de ocultación. Puedes pensar que nadie va a usar tu clase y que no es importante el principio de ocultación, pero se trata de practicar, por otro lado dentro de unos meses si vuelves a usar la clase para hacer un interface gráfico y te da pereza revisar el código el principio de ocultación también protege a tu clase ¡de ti mismo!. 
 
 5. Genera javadoc para la parte pública de TresenRaya. Cuando generes el javadoc, tendrás que escribir el texto de ayuda de forma que otro programador distinto de ti, sin mirar el código java de tu clase, sepa perfectamente como manejarla. Si las explicaciones son buenas y sencillas es porque los métodos públicos están bien diseñados, y por tanto son fáciles de entender y manejar. Piensa que si el javadoc no se entiende, sea probablemente porque la estructura de tu clase al respecto de los métodos de tu clase no es el adecuado. Cuando lo estes haciendo puedes preguntar a un compañero si sería capaz de manejar la clase con tu javadoc y sacas conclusiones. 
+6. Genera un jar para el proyecto
 
 
 SE ENTREGA:  un proyecto en gitlab  con tu solución del proyecto un .jar y una carpeta con el javadoc como indica la imagen
