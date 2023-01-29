@@ -7,12 +7,11 @@ No es importante que tenga mil opciones y que el diálogo con el usuario sea reb
 
 Descripción de cosas que debe  cumplir el proyecto:
 1. Nos limitamos a Jugador humano vs máquina. Para no liar el código con muchas opciones descartamos la opción humano vs humano. El juego de la máquina es el más interesante para nosotros ya que es el programador el que juega y decide en nombre de la máquina. La máquina puede jugar a muchos niveles de elaboración de jugadas, por ejemplo:
-    a. simple: hace sus movimientos a una de las casillas libre al azar o a la primera que ve libre por orden de recorrido matriz
-    b. intermedio: mira antes de mover donde  puede hacer raya 
-    c. difícil: añade al paso anterior la comprobación de que si no puede hacer raya mira si puede  “tapar” la posible raya de su rival 
+    - simple: hace sus movimientos a una de las casillas libre al azar o a la primera que ve libre por orden de recorrido matriz
+    - intermedio: mira antes de mover donde  puede hacer raya 
+    - difícil: añade al paso anterior la comprobación de que si no puede hacer raya mira si puede  “tapar” la posible raya de su rival. Incluso hay comportamientos más elaborados que este "dificil" pero hasta aquí llegamos. 
 
-Con la opción “a” es suficiente, luego si te gusta el juego lo haces más elaborado incorporando b y c ¡pero primero que funcione con la       opción a! Y por cierto, todavía hay soluciones más sofisticadas que la “dificil” pero con esto nos basta.
-Si te decides a incorporar el nivel intermedio y/o dificil, puedes aprovechar el mecanismo de ramas de git para seguir hacia adelante: creas una rama que s llame por ejemplo"intermedio" y cuando funcione le haces un merge a la master. Similar con "dificil"
+Con la opción “simple” es más que suficiente, luego si te gusta la práctica  puedes mejorarla incorporando los niveles "intermedio" y/o "difícil". ¡Pero primero que funcione con la opción simple! 
 
 2. Trabajar en un proyecto de nombre TresEnRaya
 3. Deben escribirse  al menos  dos clases:
