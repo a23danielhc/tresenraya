@@ -9,7 +9,7 @@ Descripción de cosas que debe  cumplir el proyecto:
 1. Nos limitamos a Jugador humano vs máquina. Para no liar el código con muchas opciones descartamos la opción humano vs humano. El juego de la máquina es el más interesante para nosotros ya que es el programador el que juega y decide en nombre de la máquina. La máquina puede jugar a muchos niveles de elaboración de jugadas, por ejemplo:
     - simple: hace sus movimientos a una de las casillas libre al azar o a la primera que ve libre por orden de recorrido matriz
     - intermedio: mira antes de mover donde  puede hacer raya 
-    - difícil: añade al paso anterior la comprobación de que si no puede hacer raya mira si puede  “tapar” la posible raya de su rival. Incluso hay comportamientos más elaborados que este "dificil" pero hasta aquí llegamos. 
+    - difícil: añade al paso anterior la comprobación de que si no puede hacer raya mira si puede  “tapar” la posible raya de su rival. Incluso hay comportamientos más elaborados que este "difícil" pero hasta aquí llegamos. 
 
 Con la opción “simple” es más que suficiente, luego si te gusta la práctica  puedes mejorarla incorporando los niveles "intermedio" y/o "difícil". ¡Pero primero que funcione con la opción simple! 
 
@@ -26,7 +26,7 @@ Observa que si la clase TresEnRaya está bien escrita podrás reutilizarla para 
 
 4. Los atributos de las clases deben ser privados y  la clase TresEnRaya debe cumplir el principio de ocultación. Puedes pensar que nadie va a usar tu clase y que no es importante el principio de ocultación, pero se trata de practicar, por otro lado dentro de unos meses si vuelves a usar la clase para hacer un interface gráfico y te da pereza revisar el código el principio de ocultación también protege a tu clase ¡de ti mismo!. 
 
-5. Genera javadoc para la parte pública de TresenRaya. Cuando generes el javadoc, tendrás que escribir el texto de ayuda de forma que otro programador distinto de ti, sin mirar el código java de tu clase, sepa perfectamente como manejarla. Si las explicaciones son buenas y sencillas es porque los métodos públicos están bien diseñados, y por tanto son fáciles de entender y manejar. Piensa que si el javadoc no se entiende, sea probablemente porque la estructura de tu clase al respecto de los métodos de tu clase no es el adecuado. Cuando lo estes haciendo puedes preguntar a un compañero si sería capaz de manejar la clase con tu javadoc y sacas conclusiones. 
+5. Genera javadoc para la parte pública de la clase motor3R.TresEnRaya. Hacer el javadoc te hará pensar en el diseño de métodos de tu clase. Sólo queremos el javadoc de esta clase, no de InterfaceConsola,  porque la clase motor3R.TresEnRaya es la que queremos que pudiera ser reutilizada por otros programadores y precisa documentación. Estos "otros" programadores sólo dispondrán el .class de la clase y no les interesa en absoluto el .java, de ahí la necesidad de documentación de uso de la clase. Cuando generes el javadoc, tendrás que escribir el texto de ayuda de forma que otro programador distinto de ti, sin mirar el código java de tu clase, sepa perfectamente como manejarla. Si las explicaciones son buenas y sencillas es porque los métodos públicos están bien diseñados, y por tanto son fáciles de entender y manejar. Piensa que si el javadoc no lo entienden bien otros programadores, sea probablemente porque la estructura de tu clase al respecto de los métodos de tu clase no es el adecuado. Puedes pasar tu  javadoc a un compañero para ver si la entiende y sacas conclusiones. 
 6. Genera un jar para el proyecto
 
 
