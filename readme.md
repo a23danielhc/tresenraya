@@ -1,5 +1,5 @@
 # TRES EN RAYA
-Se pide hacer  juego de  *tres en raya*. 
+Se pide hacer  en java un juego de  *tres en raya*. 
 No es importante que tenga mil opciones y que el diálogo con el usuario sea rebuscado. Los objetivos de esta práctica son:
 - que la lógica del juego descanse en una clase independiente de la entrada salida.
 - utilizar el principio de ocultación
