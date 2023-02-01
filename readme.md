@@ -1,9 +1,9 @@
 # TRES EN RAYA
 Se pide hacer  en java un juego de  *tres en raya*. 
 No es importante que tenga mil opciones y que el diálogo con el usuario sea rebuscado. Los objetivos de esta práctica son:
-- que la lógica del juego descanse en una clase independiente de la entrada salida.
-- utilizar el principio de ocultación
-- generar javadoc para la clase de la lógica del juego de forma que seamos reflexivos a la hora de decidir que métodos públicos va a contener esta clase.
+- Que la lógica del juego descanse en una clase independiente de la entrada salida.
+- Utilizar el principio de ocultación
+- Generar javadoc para la clase de la lógica del juego de forma que seamos reflexivos a la hora de decidir que métodos públicos va a contener esta clase.
 
 Descripción de cosas que debe  cumplir el proyecto:
 1. Nos limitamos a Jugador humano vs máquina. Para no liar el código con muchas opciones descartamos la opción humano vs humano. El juego de la máquina es el más interesante para nosotros ya que es el programador el que juega y decide en nombre de la máquina. La máquina puede jugar a muchos niveles de elaboración de jugadas, por ejemplo:
