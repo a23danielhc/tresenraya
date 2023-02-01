@@ -30,13 +30,6 @@ Observa que si la clase TresEnRaya está bien escrita podrás reutilizarla para 
 6. Genera un jar para el proyecto
 
 
-SE ENTREGA:  un proyecto en gitlab  con tu solución del proyecto que además contiene un .jar y una carpeta con el javadoc como indica la imagen. No olvides  incluir a lozano@iessanclemente.net como reporter en tu proyecto y tampoco olvides  pegar La url de tu proyecto en la tarea correspondiente del curso moodle. OJO CON LA FECHA DE CIERRE DE LA TAREA.
-
-
-![ALT](estructura.jpg)
-
-
-
 
 
 
@@ -58,4 +51,14 @@ lo que implica que para crear un tablero de juego haría por ejemplo
  TresEnRaya tablero= new TresEnRaya(‘X’,’O’);
 
 En definitiva el javadoc me debe indicar como manejar la clase sin especificar detalles de implementación interna
+
+
+SE ENTREGA:  un proyecto en gitlab  con tu solución del proyecto que además contiene un .jar y una carpeta con el javadoc como indica la imagen. No olvides  incluir a lozano@iessanclemente.net como reporter en tu proyecto y tampoco olvides  pegar La url de tu proyecto en la tarea correspondiente del curso moodle. OJO CON LA FECHA DE CIERRE DE LA TAREA.
+
+
+![ALT](estructura.jpg)
+
+
+
+
 
