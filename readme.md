@@ -31,6 +31,8 @@ Observa que si la clase TresEnRaya está bien escrita podrás reutilizarla para 
 
 
 SE ENTREGA:  un proyecto en gitlab  con tu solución del proyecto que además contiene un .jar y una carpeta con el javadoc como indica la imagen. No olvides meter incluir a lozano@iessanclemente.net como reporter y dde pegar La url de tu proyecto en la tarea correspondiente del curso moodle.
+
+
 ![ALT](estructura.jpg)
 
 
