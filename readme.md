@@ -2,7 +2,7 @@
 Se pide hacer  en java un juego de  *tres en raya*. 
 No es importante que tenga mil opciones y que el diálogo con el usuario sea rebuscado. Los objetivos de esta práctica son:
 - Que la lógica del juego descanse en una clase independiente de la entrada salida.
-- Utilizar el principio de ocultación
+- Practicar ocultación de atributos
 - Generar javadoc para la clase de la lógica del juego de forma que seamos reflexivos a la hora de decidir que métodos públicos va a contener esta clase.
 
 Descripción de cosas que debe  cumplir el proyecto:
@@ -14,10 +14,10 @@ Descripción de cosas que debe  cumplir el proyecto:
 Con la opción “simple” es más que suficiente, luego si te gusta la práctica  puedes mejorarla incorporando los niveles "intermedio" y/o "difícil". ¡Pero primero que funcione con la opción simple! 
 
 2. Trabajar en un proyecto de nombre TresEnRaya
-3. Deben escribirse  al menos  dos clases:
+3. Deben escribirse  al menos  dos clases(y quizá no hagan falta más si el código es simple):
     * clase *motor3R.TresEnRaya*: se ocupa de  la lógica  del juego controlando el estado del tablero. No se limita a almacenar una tabla si no que controla la lógica del juego:
        *  lleva el control de fin de partida y puede preguntársele si la partida acabó o no. Si la partida acabó también puede preguntársele si el ganador es el humano o la máquina o hubo empate(tablero lleno sin raya). 
-        * Cuando juega la máquina es la clase tablero la que toma la decisión a dónde mover según el nivel de dificultad que se le indica al principio de la partida. 
+        * Cuando juega la máquina,  es esta clase la que toma la decisión a dónde mover según el nivel de dificultad que se le indica al principio de la partida. 
    * clase *InterfaceConsola*: Interconecta usuario y clase *motor3R.TresEnRaya*. Como describe su nombre, se trata de un  interface de usuario de consola y por tanto contiene el main(). La clase InterfaceConsola recoge los datos del usuario y se los envía a la clase TresEnRaya, por ejemplo cuando el jugador humano realiza un movimiento la clase InterfaceConsola recoge las coordenadas y se las envía a la clase TresEnRaya. Para indicar al usuario que se terminó la partida o quién ganó  la clase Interface se lo pregunta previamente a la clase TresEnRaya ya que es ella la que tiene el control del juego. Puedes asumir que el usuario teclea los datos correctamente, por ejemplo, no teclea las coordenadas de una casilla ya ocupada. Pertenece al paquete por defecto.
 
 Observa que si la clase TresEnRaya está bien escrita podrás reutilizarla para hacer una versión gráfica del Tres en raya. Donde reutilizar significa no tener que modificarla en absoluto y  directamente poder usarla desde  una  clase  que se ocupara del diálogo con el usuario pero de forma gráfica. POR LO TANTO:
@@ -28,12 +28,6 @@ Observa que si la clase TresEnRaya está bien escrita podrás reutilizarla para 
 
 5. Genera javadoc para la parte pública de la clase motor3R.TresEnRaya. Hacer el javadoc te hará pensar en el diseño de métodos de tu clase. Sólo queremos el javadoc de esta clase, no de InterfaceConsola,  porque la clase motor3R.TresEnRaya es la que queremos que pudiera ser reutilizada por otros programadores y precisa documentación y un diseño entendible por otros. Pensemos que estos "otros" programadores sólo dispondrán el .class de la clase y no les interesa en absoluto el .java, de ahí la necesidad de documentación de uso de la clase. Cuando generes el javadoc, tendrás que escribir el texto de ayuda de forma que otro programador distinto de ti, sin mirar el código java de tu clase, sepa perfectamente como manejarla. Si las explicaciones son buenas y sencillas es porque los métodos públicos están bien diseñados(buenos nombres y funcionalidades claras y precisas), y por tanto son fáciles de entender y manejar. Piensa que si el javadoc no lo entienden bien otros programadores, sea probablemente porque la estructura de tu clase al respecto de los métodos de tu clase no es el adecuado. Puedes pasar tu  javadoc a un compañero para ver si la entiende y sacas conclusiones. 
 6. Genera un jar para el proyecto
-
-
-
-
-
-
 
 
 
@@ -53,12 +47,14 @@ lo que implica que para crear un tablero de juego haría por ejemplo
 En definitiva el javadoc me debe indicar como manejar la clase sin especificar detalles de implementación interna
 
 
-SE ENTREGA:  un proyecto en gitlab  con tu solución del proyecto que además contiene un .jar y una carpeta con el javadoc como indica la imagen. No olvides  incluir a lozano@iessanclemente.net como reporter en tu proyecto y tampoco olvides  pegar La url de tu proyecto en la tarea correspondiente del curso moodle. OJO CON LA FECHA DE CIERRE DE LA TAREA.
+SE ENTREGA:  En tu github  de cuenta @iessanclemente.net, un repo con tu solución del proyecto que además contiene un .jar y una carpeta con el javadoc como indica la imagen. No olvides  incluir a lozano@iessanclemente.net como reporter en tu proyecto y tampoco olvides  pegar La url de tu proyecto en la tarea correspondiente del curso moodle. OJO CON LA FECHA DE CIERRE DE LA TAREA.
 
 
 ![ALT](estructura.jpg)
 
 
+
+Lo importante de este trabajo es que cumpla los requisitos mencionados, no tiene que ser complicada ni tener una lógica perfecta.
 
 
 
