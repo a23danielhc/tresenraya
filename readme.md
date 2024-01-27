@@ -56,5 +56,10 @@ SE ENTREGA:  En tu github  de cuenta @iessanclemente.net, un repo con tu soluci√
 
 Lo importante de este trabajo es que cumpla los requisitos mencionados, no tiene que ser complicada ni tener una l√≥gica perfecta.
 
+Tienes unos minivideos en este repositorio que te pueden orientar:
+- [ejemplodeejecucion.mp4](ejemplodeejecucion.mp4)
+- [generarjavadoc.mp4](generarjavadoc.mp4)
+- [generarjar.mp4](generarjar.mp4)
+
 
 
